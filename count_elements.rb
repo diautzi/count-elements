@@ -5,7 +5,7 @@ def count_elements(array)
   array.each do |item| 
     new_hash[item] += 1
   end
-  count
+  new_hash
 end
  
  count_elements(['tortoise', 'aye-aye', 'honey badger', 'aye-aye', 'tortoise', 'tortoise'])
