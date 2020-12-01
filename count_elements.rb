@@ -1,12 +1,9 @@
 require 'pry'
 def count_elements(array)
   # code goes here
-  new_hash = Hash.new(0)
-  
-  array.each do |item|
-    # binding.pry
-    new_hash[item] += 1 
-    new_hash
+  count = Hash.new(0)
+  array.each {|item| count[item] += 1 }
+  count
   end
 end
  
